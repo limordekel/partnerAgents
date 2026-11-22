@@ -21,6 +21,7 @@ from util import is_gpt_5_or_newer
 logger = logging.getLogger(__name__)
 
 
+
 # Defensive instructions appended to all system prompts to reduce susceptibility
 # to prompt injection via tool results.
 _DEFENSIVE_PROMPT_SUFFIX = """
