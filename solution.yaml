@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: stam-agent-13898
+  version: 1.0.0
+  description: A simple demo AI agent that always returns the text "stam".
+
+assets:
+  - ref: ./assets/stam-agent/asset.yaml
